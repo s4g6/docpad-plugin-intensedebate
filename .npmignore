@@ -8,3 +8,4 @@ out/*.tester.*
 out/*.test.*
 out/test/
 test/
+.idea/
