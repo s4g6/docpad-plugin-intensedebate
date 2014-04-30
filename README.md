@@ -27,8 +27,7 @@ Add your website's account ID to your DocPad configuration. You can find this by
 ```
 plugins:
 	intensedebate:
-		intenseDebateOptions:
-			accountId: "xxxx"
+		accountId: "xxxx"
 ```
 
 It is recommended to put your site's account ID in an environment variable:

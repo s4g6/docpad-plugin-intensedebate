@@ -6,14 +6,13 @@ module.exports = (BasePlugin) ->
 		name: 'intensedebate'
 
 		config:
-			intenseDebateOptions:
-				accountId: null
+			accountId: null
 
 		extendTemplateData: (opts) ->
 			me = @
 			{docpad} = @
 			opts.templateData.getIntenseDebateCommentBlock = (idcomments_post_id, idcomments_post_url, idcomments_post_title) ->
-				accountId = me.config.intenseDebateOptions.accountId
+				accountId = me.config.accountId
 				return '' unless accountId
 				"""
 				<script>
